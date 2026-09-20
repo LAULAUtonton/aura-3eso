@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AURA // Teacher Notebook · 3º ESO English</title>
+<style>
+:root{--bg:#070b18;--panel:#111a31;--panel2:#17244a;--ink:#f4f7ff;--muted:#aab9dc;--cyan:#43e8ff;--violet:#9b6cff;--lime:#a9ff61;--gold:#ffcc4c;--red:#ff6b85;--line:rgba(126,176,255,.26)}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 82% 0,#223b86 0,transparent 25%),radial-gradient(circle at 8% 92%,#4b2479 0,transparent 30%),var(--bg);color:var(--ink);font:14px/1.42 Inter,Segoe UI,Arial,sans-serif;min-height:100vh}
+a{color:inherit}.wrap{width:min(1480px,96vw);margin:auto;padding:26px 0 60px}.top{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}.eyebrow{font-size:11px;font-weight:900;letter-spacing:.12em;color:var(--cyan);border:1px solid var(--cyan);padding:5px 8px}.top h1{font-size:clamp(32px,5vw,60px);letter-spacing:-.055em;margin:10px 0 4px}.top p{color:var(--muted);margin:0;max-width:820px}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn,button{border:1px solid var(--line);background:#14234a;color:var(--ink);border-radius:8px;padding:9px 12px;font-weight:800;cursor:pointer}.btn:hover,button:hover{border-color:var(--cyan)}.primary{background:linear-gradient(90deg,var(--cyan),#78a5ff);color:#061124;border:0}.danger{border-color:#ff6b8566;color:#ffc6d0}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 14px}.tab.active{background:var(--cyan);color:#061124;border-color:var(--cyan)}.panel{display:none}.panel.active{display:block}.card{background:linear-gradient(145deg,#162653e9,#0b1023e9);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 14px 32px #0004;margin-bottom:14px}.card h2,.card h3{margin:0 0 10px}.muted{color:var(--muted)}.small{font-size:12px}.notice{border-left:4px solid var(--gold);background:#2c230eaa;padding:11px 13px;margin:12px 0;color:#f3e5b7}.ok{color:var(--lime)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:5px}.field input,.field select,.field textarea,input[type=number],input[type=text],input[type=date],select,textarea{background:#0c1430;color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:8px;font:inherit}textarea{min-height:74px;resize:vertical}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:10px}table{border-collapse:collapse;width:100%;min-width:900px;background:#091027}th,td{border-bottom:1px solid var(--line);border-right:1px solid #ffffff0b;padding:8px;vertical-align:middle}th{position:sticky;top:0;background:#17244a;z-index:2;text-align:left;font-size:12px}th.student,td.student{position:sticky;left:0;z-index:1;background:#111a31;min-width:190px}th.student{z-index:3}td input.score{width:68px;text-align:center;padding:7px}.avg{font-weight:900;color:var(--lime);white-space:nowrap}.none{color:#6f80a8}.cp{border:1px solid var(--line);background:#0b1330;border-radius:10px;padding:12px;margin:10px 0}.cphead{display:flex;align-items:center;justify-content:space-between;gap:10px}.cpgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin-top:10px}.criteria{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:10px}.crit{display:flex;gap:6px;align-items:flex-start;background:#111c3c;border:1px solid #ffffff12;border-radius:7px;padding:7px;font-size:12px}.criterion-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.criterion-card{background:#0b1330;border:1px solid var(--line);border-radius:10px;padding:12px}.criterion-card b{color:var(--cyan)}.studentNotes{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.noteBox{border:1px solid var(--line);border-radius:10px;padding:10px;background:#0b1330}.noteBox input{width:100%;font-weight:700}.noteBox textarea{width:100%;margin-top:6px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.pill{display:inline-block;padding:3px 7px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:11px}.source{font-size:12px;color:var(--muted);margin-top:10px}.criterion-table td:first-child{font-weight:900;color:var(--cyan);white-space:nowrap}.criterion-table td:not(:first-child){text-align:center}.badge{display:inline-block;min-width:40px;padding:3px 6px;border-radius:7px;background:#162653;text-align:center;font-weight:800}.back{display:inline-block;text-decoration:none;border:1px solid var(--line);padding:8px 11px;border-radius:8px;background:#0f1936}@media(max-width:900px){.grid2,.studentNotes,.criterion-card,.criterion-cards{grid-template-columns:1fr}.criteria{grid-template-columns:repeat(2,1fr)}.cpgrid{grid-template-columns:1fr}.wrap{width:94vw}}@media print{body{background:white;color:#111}.actions,.tabs,.notice,.back{display:none!important}.panel{display:none!important}.panel.active{display:block!important}.card,table,.noteBox{background:white;color:#111;box-shadow:none;border-color:#bbb}.muted,.source{color:#555}th,th.student,td.student{background:#eee;color:#111}.tablewrap{overflow:visible}.wrap{width:100%;padding:0}.criterion-table{font-size:9px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><span class="eyebrow">AURA · 3º ESO · ENGLISH · CANARIAS</span><h1>Teacher Notebook</h1><p>26 alumnos · instrumentos/checkpoints de 0 a 10 · asociación con criterios de evaluación · medias por instrumento y por criterio · notas del profesor.</p></div>
+    <div class="actions"><a class="back" href="index.html">← AURA Console</a><button onclick="exportData()">Export backup</button><button onclick="document.getElementById('importFile').click()">Import backup</button><input id="importFile" type="file" accept="application/json" hidden onchange="importData(event)"><button onclick="window.print()">Print</button></div>
+  </div>
+  <div class="notice"><b>Guardado automático:</b> los datos se guardan en este navegador mediante localStorage. Usa <b>Export backup</b> regularmente para conservar una copia y mover el cuaderno entre ordenadores.</div>
+  <div class="tabs">
+    <button class="tab active" data-tab="marks">Calificaciones</button>
+    <button class="tab" data-tab="checkpoints">Instrumentos / Checkpoints</button>
+    <button class="tab" data-tab="criteria">Resumen por criterios</button>
+    <button class="tab" data-tab="notes">Notas del profesor</button>
+    <button class="tab" data-tab="reference">Criterios 3º ESO</button>
+  </div>
+
+  <section id="marks" class="panel active">
+    <div class="card"><h2>Calificaciones · 0–10</h2><p class="muted">Introduce la nota del instrumento. Una celda vacía significa <b>sin evidencia</b>, no cero. La media solo usa las notas registradas.</p><div id="marksTable" class="tablewrap"></div></div>
+  </section>
+
+  <section id="checkpoints" class="panel">
+    <div class="card"><div class="cphead"><div><h2>Instrumentos / Checkpoints</h2><p class="muted">Cada instrumento puede vincularse a uno o varios criterios oficiales.</p></div><button class="primary" onclick="addCheckpoint()">+ Añadir instrumento</button></div><div id="checkpointList"></div></div>
+  </section>
+
+  <section id="criteria" class="panel">
+    <div class="card"><h2>Resumen por criterios</h2><p class="muted">Calcula la media de todas las evidencias asociadas a cada criterio. “—” = todavía no hay evidencia.</p><div id="criteriaTable" class="tablewrap"></div></div>
+  </section>
+
+  <section id="notes" class="panel">
+    <div class="card"><h2>Notas del profesor</h2><p class="muted">Nombres editables y observaciones libres para 26 alumnos.</p><div id="notesGrid" class="studentNotes"></div></div>
+  </section>
+
+  <section id="reference" class="panel">
+    <div class="card"><h2>Criterios de evaluación · Lengua Extranjera · 3º ESO Canarias</h2><p class="muted">Descriptores abreviados para uso práctico en el cuaderno. Consulta el currículo oficial para la redacción íntegra.</p><div id="criterionCards" class="criterion-cards"></div><div class="source">Marco: Decreto 30/2023, de 16 de marzo, currículo LOMLOE de ESO en Canarias · Lengua Extranjera, 3º ESO.</div></div>
+  </section>
+</div>
+<script>
+const CRITERIA=[
+ {id:'1.1',ce:'CE1',label:'Comprensión oral',desc:'Seleccionar información pertinente, extraer sentido global e información específica e interpretar/valorar textos orales sencillos.'},
+ {id:'1.2',ce:'CE1',label:'Comprensión escrita y multimodal',desc:'Seleccionar información, extraer sentido global e ideas principales e interpretar/valorar textos escritos y multimodales sencillos.'},
+ {id:'1.3',ce:'CE1',label:'Estrategias de comprensión',desc:'Aplicar progresivamente estrategias adecuadas para comprender, inferir significados, interpretar elementos no verbales y gestionar información.'},
+ {id:'2.1',ce:'CE2',label:'Producción oral',desc:'Elaborar y expresar oralmente textos sencillos, estructurados, comprensibles, coherentes y adecuados a la situación comunicativa.'},
+ {id:'2.2',ce:'CE2',label:'Producción escrita',desc:'Redactar y difundir textos propios de extensión media con claridad, coherencia, cohesión, corrección y adecuación.'},
+ {id:'2.3',ce:'CE2',label:'Planificación y revisión de la producción',desc:'Seleccionar, organizar y aplicar conocimientos y estrategias para planificar, producir, revisar y cooperar.'},
+ {id:'3.1',ce:'CE3',label:'Interacción',desc:'Planificar, participar y colaborar en interacciones sencillas con cortesía, proactividad, empatía y respeto.'},
+ {id:'3.2',ce:'CE3',label:'Estrategias de interacción',desc:'Usar progresivamente estrategias para iniciar, mantener y terminar la comunicación, aclarar, reformular, colaborar y debatir.'},
+ {id:'4.1',ce:'CE4',label:'Mediación',desc:'Inferir y explicar textos, conceptos y comunicaciones sencillas para construir conocimiento y transmitir información con claridad.'},
+ {id:'4.2',ce:'CE4',label:'Estrategias de mediación',desc:'Aplicar estrategias para crear puentes, facilitar la comunicación y explicar o simplificar textos, conceptos y mensajes.'},
+ {id:'5.1',ce:'CE5',label:'Plurilingüismo y aprender a aprender',desc:'Registrar progresos y dificultades, usar auto/coevaluación y comparar lenguas para ampliar el repertorio lingüístico y consolidar el aprendizaje.'},
+ {id:'6.1',ce:'CE6',label:'Interculturalidad',desc:'Valorar críticamente y con respeto la diversidad lingüística, cultural y artística de Canarias y de los países de la lengua extranjera.'}
+];
+const DEFAULT_CP=[
+ {id:'cp1',name:'CP1 · Character Audio',date:'',type:'Producción oral',criteria:['2.1','2.3']},
+ {id:'cp2',name:'CP1 · AURA Contest',date:'',type:'Presentación + interacción',criteria:['2.1','3.1','3.2']},
+ {id:'cp3',name:'Feed vs Reality Report',date:'',type:'Producción escrita',criteria:['1.2','2.2','2.3']}
+];
+const KEY='auraTeacherNotebookV1';
+function initial(){return {students:Array.from({length:26},(_,i)=>({name:'Alumno '+(i+1),notes:''})),checkpoints:DEFAULT_CP.map(x=>({...x})),scores:{}}}
+let data=load();
+function load(){try{const x=JSON.parse(localStorage.getItem(KEY));if(x&&x.students&&x.checkpoints)return x}catch(e){}return initial()}
+function save(){localStorage.setItem(KEY,JSON.stringify(data));renderMarks();renderCriteria();}
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function scoreKey(si,cpid){return si+'::'+cpid}
+function validScore(v){if(v===''||v==null)return null;let n=Number(v);return Number.isFinite(n)&&n>=0&&n<=10?n:null}
+function setScore(si,cpid,v){let n=validScore(v);let k=scoreKey(si,cpid);if(n===null)delete data.scores[k];else data.scores[k]=n;localStorage.setItem(KEY,JSON.stringify(data));renderCriteria();updateAverages()}
+function studentAvg(si){let vals=data.checkpoints.map(c=>validScore(data.scores[scoreKey(si,c.id)])).filter(v=>v!==null);return vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null}
+function criterionAvg(si,cid){let vals=[];data.checkpoints.filter(c=>c.criteria.includes(cid)).forEach(c=>{let v=validScore(data.scores[scoreKey(si,c.id)]);if(v!==null)vals.push(v)});return vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null}
+function renderMarks(){let h='<table><thead><tr><th class="student">Alumno</th>';data.checkpoints.forEach(c=>h+='<th title="'+esc(c.criteria.join(', '))+'">'+esc(c.name)+'<br><span class="pill">'+esc(c.criteria.join(' · ')||'sin criterio')+'</span></th>');h+='<th>Media</th></tr></thead><tbody>';data.students.forEach((s,si)=>{h+='<tr><td class="student"><input type="text" value="'+esc(s.name)+'" onchange="renameStudent('+si+',this.value)" style="width:100%"></td>';data.checkpoints.forEach(c=>{let v=data.scores[scoreKey(si,c.id)]??'';h+='<td><input class="score" type="number" min="0" max="10" step="0.1" value="'+v+'" oninput="setScore('+si+',\''+c.id+'\',this.value)"></td>'});let a=studentAvg(si);h+='<td class="avg" id="avg-'+si+'">'+(a===null?'—':a.toFixed(2))+'</td></tr>'});h+='</tbody></table>';document.getElementById('marksTable').innerHTML=h}
+function updateAverages(){data.students.forEach((_,si)=>{let el=document.getElementById('avg-'+si);if(el){let a=studentAvg(si);el.textContent=a===null?'—':a.toFixed(2)}})}
+function renameStudent(i,v){data.students[i].name=v.trim()||('Alumno '+(i+1));localStorage.setItem(KEY,JSON.stringify(data));renderNotes();renderCriteria()}
+function renderCheckpoints(){let host=document.getElementById('checkpointList');host.innerHTML='';data.checkpoints.forEach((c,i)=>{let d=document.createElement('div');d.className='cp';d.innerHTML=`<div class="cphead"><b>Instrumento ${i+1}</b><button class="danger" onclick="removeCheckpoint('${c.id}')">Eliminar</button></div><div class="cpgrid"><label class="field">Nombre<input type="text" value="${esc(c.name)}" onchange="updateCP('${c.id}','name',this.value)"></label><label class="field">Tipo<input type="text" value="${esc(c.type||'')}" onchange="updateCP('${c.id}','type',this.value)"></label><label class="field">Fecha<input type="date" value="${esc(c.date||'')}" onchange="updateCP('${c.id}','date',this.value)"></label></div><div class="small muted" style="margin-top:9px">Criterios evaluados:</div><div class="criteria">${CRITERIA.map(k=>`<label class="crit" title="${esc(k.desc)}"><input type="checkbox" ${c.criteria.includes(k.id)?'checked':''} onchange="toggleCriterion('${c.id}','${k.id}',this.checked)"><span><b>${k.id}</b> · ${esc(k.label)}</span></label>`).join('')}</div>`;host.appendChild(d)})}
+function updateCP(id,f,v){let c=data.checkpoints.find(x=>x.id===id);if(c){c[f]=v;save();renderCheckpoints()}}
+function toggleCriterion(id,cid,on){let c=data.checkpoints.find(x=>x.id===id);if(!c)return;if(on&&!c.criteria.includes(cid))c.criteria.push(cid);if(!on)c.criteria=c.criteria.filter(x=>x!==cid);save();renderCheckpoints()}
+function addCheckpoint(){let id='cp'+Date.now();data.checkpoints.push({id,name:'Nuevo checkpoint',date:'',type:'',criteria:[]});save();renderCheckpoints()}
+function removeCheckpoint(id){if(!confirm('¿Eliminar este instrumento y sus notas?'))return;data.checkpoints=data.checkpoints.filter(c=>c.id!==id);Object.keys(data.scores).filter(k=>k.endsWith('::'+id)).forEach(k=>delete data.scores[k]);save();renderCheckpoints()}
+function renderCriteria(){let h='<table class="criterion-table"><thead><tr><th class="student">Alumno</th>'+CRITERIA.map(c=>'<th title="'+esc(c.desc)+'">'+c.id+'<br><span class="small">'+esc(c.label)+'</span></th>').join('')+'<th>Media criterios</th></tr></thead><tbody>';data.students.forEach((s,si)=>{let av=[];h+='<tr><td class="student">'+esc(s.name)+'</td>';CRITERIA.forEach(c=>{let a=criterionAvg(si,c.id);if(a!==null)av.push(a);h+='<td>'+(a===null?'<span class="none">—</span>':'<span class="badge">'+a.toFixed(2)+'</span>')+'</td>'});h+='<td class="avg">'+(av.length?(av.reduce((a,b)=>a+b,0)/av.length).toFixed(2):'—')+'</td></tr>'});h+='</tbody></table>';document.getElementById('criteriaTable').innerHTML=h}
+function renderNotes(){let h='';data.students.forEach((s,i)=>{h+=`<div class="noteBox"><input type="text" value="${esc(s.name)}" onchange="renameStudent(${i},this.value)"><textarea placeholder="Observaciones, seguimiento, participación, apoyos..." onchange="setNote(${i},this.value)">${esc(s.notes||'')}</textarea></div>`});document.getElementById('notesGrid').innerHTML=h}
+function setNote(i,v){data.students[i].notes=v;localStorage.setItem(KEY,JSON.stringify(data))}
+function renderReference(){document.getElementById('criterionCards').innerHTML=CRITERIA.map(c=>`<div class="criterion-card"><div><b>${c.id}</b> <span class="pill">${c.ce}</span></div><h3>${esc(c.label)}</h3><p class="muted">${esc(c.desc)}</p></div>`).join('')}
+function exportData(){let b=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='AURA_teacher_notebook_backup.json';a.click();URL.revokeObjectURL(a.href)}
+function importData(ev){let f=ev.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let x=JSON.parse(r.result);if(!x.students||!x.checkpoints)throw 0;data=x;localStorage.setItem(KEY,JSON.stringify(data));renderAll();alert('Backup importado.')}catch(e){alert('El archivo no parece un backup válido de AURA.')}};r.readAsText(f);ev.target.value=''}
+function renderAll(){renderMarks();renderCheckpoints();renderCriteria();renderNotes();renderReference()}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.tab).classList.add('active')}));
+renderAll();
+</script>
+</body>
+</html>
